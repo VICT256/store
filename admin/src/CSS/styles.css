@@ -1,0 +1,649 @@
+/* Navbar Component styles */
+
+  
+.isonline {
+ border: 3px solid green;
+}
+
+
+#hide-navelt-on-big-screen{
+      display:none  ;
+  }
+  .hide-navelt-on-big-screen{
+    display:none  ;
+}
+
+  
+  @media screen and (min-width:990px){
+
+    #hide-navelt-on-big-screen{
+      display:none  ;
+        }
+    
+
+  }
+
+  @media (min-width:400px) and (max-width:990px){
+
+    #hide-elt-on-mid-screen {
+      display: none;
+    }
+
+  }
+
+
+  @media screen and (max-width:770px){
+
+    #hide-elt-on-sm-mid-screen {
+      display: none;
+    }
+
+    #show-elt-on-sm-mid-screen {
+      display: block;
+    }
+
+  }
+
+  #show-elt-on-sm-mid-screen {
+    display: none;
+  }
+  @media screen and (max-width:770px){
+
+    #show-elt-on-sm-mid-screen {
+      display: block;
+    }
+
+  }
+
+ 
+
+
+
+
+   
+@media screen and (max-width: 400px) {
+
+  #hide-navelt-on-big-screen{
+    display:block ;
+      }
+      
+  .hide-navelt-on-big-screen{
+    display:block  ;
+}
+  #hide-navelt-on-small-screen{
+    display:none  ;
+  }
+ 
+}
+
+/* Navbar Component */
+.text-link {
+  color: black;
+  text-decoration: none;
+}
+.text-link:hover {
+  color: white;
+  text-decoration: none;
+}
+.nav-dropdown-item{
+  color: black
+  
+}
+.nav-dropdown-item:hover{
+  background-color: #301935;
+  color: white
+  
+}
+
+/* Notification Component */
+.notification-box {
+  position:fixed;
+  color: black;
+  right: 1%; 
+  top: 8%;
+  z-index:1;
+  background-color:snow;
+  padding:10px;
+  width: 20rem;
+  overflow:auto;
+
+  /* height: 100vh; */
+color: rgb(200, 200, 200);
+}
+#tab-overflow{
+  overflow:auto;
+  
+}
+
+/*Bin.js Page Styles*/
+.nav-icon1, .nav-icon4 {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem
+}
+
+.nav-icon2, .nav-icon3 {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem
+}
+
+.nav-icon4 {
+  display:none
+}
+
+@media screen and (max-width: 600px) {
+ 
+  .adjust-logo-on-post-page {
+  position: relative;
+  left: 25%;
+  padding: 50px;
+  
+}
+
+.adjust-logo-on-post-page img {
+ width: 100px;
+ height: 100px;
+}
+
+
+
+.nav-icon4 {
+  display:block
+}
+
+}
+
+
+/* Homepage Component styles */
+
+.content-container {
+  background-color:#FEA500;
+  /* height: 100vh; */
+  /* margin-top: 5rem; */
+}
+
+.loginbtn {
+  background-color: rgb(48, 25, 53);
+  box-shadow :7px 7px 1px rgb(0, 0, 0);
+   padding: 14px;
+   margin: 15px;
+   color: white;
+   width: 10rem;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+.signupbtn {
+  background-color: #FFFFFF;
+  box-shadow: 7px 7px 1px rgb(0, 0, 0);
+  padding: 14px;
+   margin: 15px;
+   color: rgb(0, 0, 0);
+   width: 10rem;
+   font-size: 22px;
+   font-weight: bold; 
+
+}
+.welcome {
+   margin-top: 5rem;
+   font-size: 37px;
+} 
+
+.nothing{
+  color: #eda7a7
+}
+
+
+@media  screen and (max-width:600px){
+
+  .genzpic {
+    /* position: relative; */
+    /* top: 5%; */
+    height: 20rem;
+    width: 15rem;
+  }
+
+  .loginbtn {
+    position: relative;
+    top: 20%;
+    padding: 14px;
+    margin: 0px;
+    color: white;
+    width: 7.5rem;
+    font-size: 22px;
+   
+  }
+
+  .signupbtn {
+    position: relative;
+    top: 20%;
+    padding: 14px;
+    margin: 8px;
+    color:  rgb(0, 0, 0);
+    width: 7.5rem;
+    font-size: 22px;
+  }
+  
+
+}
+
+@media  (min-width:650px) and (max-width:2500px){
+
+  .content-container {
+    height: 100vh;
+  }
+
+  .genzpic {
+    /* position: relative; */
+    /* bottom: 33%; */
+    height: 25rem;
+    width: 30rem;
+  }
+
+  #adjust_margin{
+    margin-top: 10rem;
+  }
+}
+
+
+
+/* LoginPage Component Styles */
+
+
+@media screen and (max-width: 600px) {
+  .loginimg{
+    display:none ;
+  }
+
+}
+
+
+
+/* Postpage Component Styles */
+
+#post-card-container{
+  /* height: 100vh; */
+  background-color:#FEA500
+} 
+
+.chatButton {
+  position:fixed;
+  
+  right: 4%; 
+  bottom: 8%;
+  z-index:1;
+  background-color:orange;
+  padding:10px
+}
+
+
+@media screen and (max-width: 600px) {
+  .post-card-container{
+      margin-top: 220px;
+  } 
+  
+  .chatButton {
+    
+    right: 4%; 
+    bottom: 8%;
+    
+  }
+}
+
+/* Profile Page  */
+.navprofile-icon1, .navprofile-icon4 {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem
+}
+
+.navprofile-icon2, .navprofile-icon3 {
+  margin-top: 1rem;
+  margin-right: 2px;
+  margin-left: 1px
+}
+
+#profile-body {
+  /* height: 100vh; */
+  background-color:rgb(48, 25, 51)
+}
+
+
+/* ProfileHeader Component Styles  */
+.second-column {
+  margin-left: 5rem;
+}
+
+.profilepage-fullname{
+  font-size: 25px;
+}
+
+@media (min-width:400px)and (max-width:990px) {
+  .second-column {
+    margin-left: 2rem;
+  }
+  .profile-stats {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .second-column {
+    margin-left: 0px;
+  }
+
+.profilepage-img{
+   width: 40px;
+   height: 40px;
+}
+
+.profilepage-fullname{
+  font-size: 15px;
+}
+ 
+
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+  #profile-body {
+    height: 100vh;
+    background-color:rgb(250, 249, 246);
+  }
+
+  #profile-stats {
+    text-align: center;
+  }
+}
+
+/* Profile Body */
+
+@media screen and (max-width:320px) {
+  
+
+#post{
+  font-size: 14px;
+}
+
+}
+
+@media screen and (max-width:990px) {
+  .dashboard-menu{
+    display: flex;
+    font-size: 15px;
+}
+
+
+#profile-post-float{
+  margin-left: 10rem;
+}
+
+.profile-post-fullname{
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.profile-post-username{
+  font-size: 13px;
+}
+
+.profile-post-posttime {
+  font-size: 10px;
+}
+
+
+}
+
+
+/* GroupPage Component  */
+#group-body{
+  background-color:rgb(48, 25, 51)
+}
+
+.nav-link{
+  color: white;
+}
+.nav-tabs{
+  width: auto;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .nav-link{
+    font-size: 9px;
+    color: white;
+
+  }
+  .nav-tabs{
+    /* width: fit-content; */
+    padding: 1px;
+  }
+}
+
+/* @media screen and (max-width: 1500px) {
+  .nav-link {
+    font-size: 11px;
+    color: white;
+  }
+
+ 
+} */
+
+/* Create Post Page */
+#create-post-body{
+  height: 100vh;
+  background-color:#FEA500
+}
+
+
+/* Group Profile Component */
+#group-profile-body {
+  /* height: 100vh; */
+  background-color:#301933;
+  
+}
+
+#pay-hover:hover{
+  cursor: pointer;
+}
+
+.group-profile-banner{
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+/* Change Password Component */
+
+#change-password-body {
+  /* height: 100vh; */
+  background-color:rgb(48, 25, 51);
+  
+}
+
+/* Payment Component */
+
+#payment-body {
+  /* height: 100vh; */
+  background-color:rgb(48, 25, 51);
+  
+}
+
+/* Payment Body Component */
+#balance{
+  font-weight: bold;
+ }
+
+ #balance_number{
+  font-weight: bold; 
+}
+ 
+@media screen and (max-width:320px) {
+   #balance{
+    font-size: 8px;
+    font-weight: bold;
+   }
+
+   #balance_number{
+    font-size: 9px;
+    font-weight: bold;
+   }
+   .payment-button {
+    font-size: 10px;
+    width: 50px;
+    height: 1rem;
+    text-align: center;
+   }
+}
+@media (min-width:30px) and (max-width:600px) {
+ 
+  .payment-button {
+   font-size: 13px;
+   width: 5rem;
+   height: 2rem;
+   text-align: center;
+  }
+  
+}
+
+@media screen and (min-width:600px) { 
+  .payment-button {
+   font-size: 15px;
+   width: 6rem;
+   height: 2rem;
+   text-align: center;
+  }
+}
+
+/* Personal Component */
+#personal-body {
+ 
+  background-color:rgb(48, 25, 51);
+  
+}
+
+/* AnalyticBody Component */
+
+@media screen and (max-width:360px) { 
+  .fit-sm{
+   font-size: 11px;
+  }
+}
+
+
+/* Alert Styles */
+
+#alert{
+  position:fixed;
+  right: 0%; 
+  margin: auto;  
+  top: 12%;
+  z-index:1;
+  padding:20px;
+  width: 20rem;
+  font-size: 20px;
+  border-left: 10px solid black;
+}
+
+#commonalert{
+  position:fixed;
+  right: 0%; 
+  margin: auto;  
+  bottom: 2%;
+  /* top: 2%; */
+  z-index:1;
+  padding:10px;
+  width: 15rem;
+  font-size: 20px;
+  background-color: azure;
+  border-left: 10px solid black;
+  
+}
+
+@media screen and (max-width:400px) { 
+  
+/* #alert{
+  right: 20; 
+  margin: auto;  
+
+} */
+}
+
+@media (min-width:400px) and (max-width:700px) {
+ 
+  /* #alert{
+    right: 8%; 
+    margin: auto;  
+  
+  } */
+}
+
+
+
+/* GroupChat */
+
+#send-div{
+  position:fixed;
+   bottom: 3%;
+  z-index:1;
+  width: 63%;
+  /* align-items: center; */
+}
+
+@media screen and (max-width:360px) { 
+  #send-div{
+    
+    width: 100%;
+    /* align-items: center; */
+  }
+}
+
+/* Group Chat  Page DropDown */
+.dropdown-menu li {
+  position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+
+
+  /* ChatBot Component Tab */
+  
+  #pills-tab{
+    position:fixed;
+   bottom: 0%;
+  z-index:1;
+  width: 35%;
+  }
+
+
+  @media screen and (max-width:770px) { 
+    #pills-tab{
+      position:fixed;
+     bottom: 0%;
+    z-index:1;
+    width: 100%;
+    }
+  }
+  @media (min-width:770px) and (max-width:1000px) { 
+    #pills-tab{
+      position:fixed;
+      bottom: 0%;
+     z-index:1;
+     width: 70%;
+     /* font-size: 100px */
+     
+    }
+  }

@@ -1,0 +1,117 @@
+Development milestone for the week
+
+
+1. Real time notification
+2. Adding crypto Payments
+3. ivorypay 
+3. recurring Payments
+4. Roles and Group Permission
+4. Edit Personal and Group Details
+4. Add admin
+7. End to End Encryption
+8. Post likes and dislikes, download and share button
+8. Post Algo
+9. Group Analytics
+10. Group copy and share button on the group page
+11. Upload images on Cloudinary
+12. search algo
+13. file storage mechanism for each groups only accessible to group memebers
+14. Report user or group
+15. KYC1 Phone OTP
+16. Multer file storage
+
+
+TASK TO BE DONE TODAY 
+1. CV
+2. Apply for two jobs
+3. Open Venxis LinkedIn business page
+4. Write post or business article
+
+
+157c2e569b4448459c2d9292c7ec1d99
+
+
+
+sharettribe_email = kodrunamli@gufum.com
+card number = 2346 7648 6378 2439 344 07/25
+
+
+https://api.etherscan.io/api?module=account&action=balancemulti&address=0x337Cd73233420D0d107e09F2FB65aaD1F5357129%2C0x6607A1640B4d2e859EF85f331aff380ad174A1C2%2C0xe9abE5E2D9928250426A53898a8219344b9BAE15%2C0x1E5Dd5FB3c456F323ab91BE3081cC9f803B370A3%2C0xB6905d602A7dc5913bd134b6F2e159475D1253ff%2C0x2F3Ec0F3e508aC70a8a8bb87E13FaC930E219F79%2C0xb3bEe41fFfC13DF6DfFa525d9a6842E2d1E9b331&tag=latest&apikey=4Q5U7HNF4CGTVTGEMGRV5ZU9WYNJ6N7YA5
+
+
+for primeforex main site
+ default-IP = 198.54.115.166
+
+ primeforex.net.	14400	A	198.54.115.1
+ mail.primeforex.net.	14400	A	198.54.115.16
+ www.primeforex.net.	14400	CNAME	primeforex.net
+ 
+
+ftp.primeforex.net.	14400	CNAME	primeforex.net
+blog.primeforex.net.	14400	A	198.54.115.16
+www.blog.primeforex.net.	14400	A	198.54.115.16
+
+
+1. email
+ vgaswSP50rOHgVJ/2C7qfpwn5METtvV7bSUCpmAYsI+OlMkVDSbOKabRG/B9Hrv7MZWAtZBpt7peiAQ/XXHAin2tFxcVW5TvNETQ22W/iPPWiORMntyW7DscnyqFgPPZ8/kgQ+dZyDh/H7qiANMPQIDAQAB;
+
+2. 
+
+blog
+1. email
+1UwUzLzsjvZr+xzsdeCuPjcTOsIhN1/5L4dxb16YvK8NSPfZX+sOaRK2Va3VV0zPzKNUMuMBOqgZD1YmW6nTGVfxAwYefDxDffvOyzLto4gjSG0o8o78+3nv4+Oseq9a08qZU7bbrUQJSh+GN10uQIDAQAB;
+2.
+v=spf1 +a +mx +ip4:198.54.114.40 +ip4:198.54.115.40 include:spf.web-hosting.com +ip4:198.54.115.166 ~all
+
+v=spf1 +a +mx +ip4:198.54.114.40 include:spf.web-hosting.com ~all
+
+
+Public Key Encryption (RSA Method) for Encryption and Decryption in React and Node.js App
+
+// Seald Credentials
+{
+  "APP_ID": "7f9d6908-b7f2-4037-87b6-67872c8f9dcd",
+  "API_URL": "https://api.staging-0.seald.io/",
+  "KEY_STORAGE_URL": "https://ssks.staging-0.seald.io/",
+  "JWT_SHARED_SECRET_ID": "e3b4ef83-9928-403b-bcda-b4a6710fb3b0",
+  "JWT_SHARED_SECRET": "h61nvRPcG4oCLPapM4TVbd45ZAUwIJZe4oQotkModHzyEGv9SEb15nq2Bf6Ol3nm"
+}
+
+
+
+Applying my skills and expertise, I intended to contribute by:
+1. Boosting Client Satisfaction by 40%
+2. Optimizing clients system by 30%
+3. Improve team communication 
+4. Innovate key system infrastructure to meet word class standard and procedures
+
+
+.httaccess file content 
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirect all requests to index.html
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
+
+
+
+Ngrok Settings
+ngrok config add-authtoken 2kOWVetEK4En8dvcj03PqCdZInn_5KJLTMcR8c6haay2FDTJQ
+ngrok http http://localhost:8000 ngrok-skip-browser-warning
+
+
+Default Admin Created : admin@gmail.com / 123456
+
+github access token: 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
+
+
+routes to work on
+/verify/phone
+/update/phone
+/update/nin
